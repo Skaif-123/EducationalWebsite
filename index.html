@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Educational Website</title>
     <link rel="stylesheet" href="./css/style.css">
-    <script src="script.js"></script>
+
 </head>
 
 <body>
@@ -28,16 +28,78 @@
     </div>
 </header>
 
+<!--hero section-->
+<section id="home" class="hero">
+    <div class="container">
+        <h2>Welcome to Edulearn</h2>
+        <p>Your journey to knowledge starts here!</p>
+        <a href="#courses" class="btn">Explore courses</a>
+    </div>
+</section>
 
+<!--About section-->
+<section id="about" class="about">
+    <div class="conatiner">
+        <h2>About Us</h2>
+        <p>EduLearn is dedicated to providing quality educational content to learners worldwide. Whether you're a
+            beginner or an expert, we have something for everyone.</p>
+    </div>
+</section>
 
+<!--Courses Section-->
+<section id="courses" class="courses">
+    <div class="container">
+        <h2>Our Courses</h2>
+        <div class="course-grid">
 
+            <div class="course-card">
+                <img src="" alt="Web Development"/>
+                <h3>Data Science</h3>
+                <p>Master Python, Machine Learning and Data Visualization</p>
+            </div>
 
+            <div class="course-card">
+                <img src="" alt="Data Science"/>
+                <h3>Web Development</h3>
+                <p>Learn HTML, CSS and JAVASCRIPT to build stunning websites</p>
+            </div>
 
+            <div class="course-card">
+                <img src="" alt="graphic design"/>
+                <h3>Graphic Design</h3>
+                <p>Unleash your Creativity with tools like photoshop and Illustrator</p>
+            </div>
+        </div>
+    </div>
+</section>
 
+<!--Contact section-->
+<section id="contact" class="contact">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
 
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
 
+            <label for="message">Message</label>
+            <textarea name="message" id="message" required></textarea>
 
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</section>
 
+<!--footer section-->
+<footer>
+    <div class="container">
+        <p>&copy;2025 EduLearn. All Rights Reserved</p>
+    </div>
+</footer>
+
+<script src="./script.js"></script>
 </body>
 
 </html>

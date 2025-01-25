@@ -215,3 +215,16 @@ footer {
     padding: 1rem 0;
     margin-top: 2rem;
 }
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background: #007BFF;
+        padding: 1rem;
+    }
+}
